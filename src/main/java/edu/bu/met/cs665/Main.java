@@ -15,6 +15,8 @@ package edu.bu.met.cs665;
  * It created two different datasets for the Legacy System and the New System, respectively.
  * It has the objects of the two systems and implements their getCustomer methods
  * It created an adapter to realize the conversion from the New System to the Legacy System.
+ * When the new system tried to fetch data from the old one without the adapter, it failed.
+ * With the adapter, the new system can fetch data from the old system.
  */
 
 public class Main {
