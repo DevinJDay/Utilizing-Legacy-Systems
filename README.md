@@ -7,23 +7,19 @@
 | Assignment # | 4                          |
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
+A company has two systems for accessing customer data.
+Your task is to develop a software system that facilitates the integration of the old system's interface with the new one, and is capable of converting between the two interfaces.
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://https://github.com/DevinJDay/cs-665-assignment-4
 
 # Implementation Description 
 
-
-For each assignment, please answer the following:
-
-- Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain.
-- Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-chosen.
+  I am using the Object Adapter Pattern in this implementation, because there is a need to provide an adapter that converts the existing class's interface, aka the Legacy System, to the one expected, aka the New System. 
+  The Object Adapter pattern allows for more flexibility in the type of adaptee objects that can be used with the adapter. The adapter, an implementation of the New System, contains an object of the old System. 
+  It can retrieve customer name based on provided customer ID NOT from the New System, BUT from the Legacy System, to realize the conversion between the two interfaces.
+  Objects of the two systems can be easily added or removed as they are implementations of the two interfaces. 
+  Also, the customer data sample can be easily created by declaring the desirable ID and name in Main.
 
 
 # Maven Commands

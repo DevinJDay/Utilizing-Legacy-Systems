@@ -12,15 +12,12 @@ package edu.bu.met.cs665;
 
 /**
  * This is the Main class.
+ * It created two different datasets for the Legacy System and the New System, respectively.
+ * It has the objects of the two systems and implements their getCustomer methods
+ * It created an adapter to realize the conversion from the New System to the Legacy System.
  */
-public class Main {
 
-  /**
-   * A main method to run examples.
-   * You may use this method for development purposes as you start building your
-   * assignments/final project.  This could prove convenient to test as you are developing.
-   * However, please note that every assignment/final projects requires JUnit tests.
-   */
+public class Main {
   public static void main(String[] args) {
     CustomerDataSample Alan = new CustomerDataSample(1111, "Alan");
     CustomerDataSample Bob = new CustomerDataSample(2222, "Bob");

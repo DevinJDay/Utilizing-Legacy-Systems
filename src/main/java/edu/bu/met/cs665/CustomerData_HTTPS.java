@@ -10,5 +10,5 @@ package edu.bu.met.cs665;
 
 public interface CustomerData_HTTPS {
 
-    void getCustomer_HTTPS(int customerID);
+    String getCustomer_HTTPS(int customerID);
 }
